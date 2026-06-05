@@ -3,7 +3,7 @@ Farming app according to their weather conditions and market strategy.
 import requests
 
 API_KEY = "YOUR_OPENWEATHER_API_KEY"
-CITY = "Delhi"
+CITY = "Sambalpur_Odisha_India"
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
